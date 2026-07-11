@@ -10,14 +10,14 @@ body {
 
 p,
 div {
-    background-color: beige;
+    background-color: rgb(155, 155, 9);
     margin: 1rem;
     padding: 1rem;
 }
 
 span {
-    color: navy;
-    background-color: lightblue;
+    color: rgb(223, 93, 132);
+    background-color: rgb(163, 50, 158);
 }
 
 code {
@@ -29,14 +29,14 @@ code {
 
 .note {
     font-style: italic;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(216, 49, 20);
     border-radius: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
+    border: 1px solid rgba(178, 41, 206, 0.1);
     margin: 1rem;
     padding: .5rem;
 }
 
 .question {
-    background-color: #3d503d;
-    color: #fff;
+    background-color: #c42461;
+    color: #9c1669;
 }
