@@ -14,8 +14,9 @@ header img {
 }
 
 .hero article img {
-    width: 50px;
+    width: 150px;
     height: auto;
+    margin-left: 15px;
 }
 
 section img {
@@ -36,4 +37,19 @@ article img {
 section img {
     width: 180px;
     height: auto;
+}
+
+/* Places the 5 pictures side-by-side in a horizontal row */
+.adventure .gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* Makes all 5 pictures equal size and fills their flex space */
+.adventure .gallery img {
+    width: 18%;
+    /* roughly 1/5th of the width */
+    height: auto;
+    object-fit: cover;
 }
