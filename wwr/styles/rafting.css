@@ -1,0 +1,24 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+section img {
+    width: 180px;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
