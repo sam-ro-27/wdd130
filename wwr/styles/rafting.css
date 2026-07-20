@@ -13,9 +13,31 @@
     --accent2-color: #e9c46a;
 }
 
-body {
-    max-width: 960px;
+/* Restructures the layout width and centers the content layout */
+header,
+main,
+footer {
+    max-width: 840px;
     margin: 0 auto;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
 }
 
 header img {
@@ -25,16 +47,6 @@ header img {
 
 img {
     max-width: 100%;
-    height: auto;
-}
-
-article img {
-    width: 120px;
-    height: auto;
-}
-
-section img {
-    width: 180px;
     height: auto;
 }
 
@@ -48,7 +60,6 @@ section img {
 /* Makes all 5 pictures equal size and fills their flex space */
 .adventure .gallery img {
     width: 18%;
-    /* roughly 1/5th of the width */
     height: auto;
     object-fit: cover;
 }
