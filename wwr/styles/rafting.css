@@ -24,6 +24,11 @@ img {
 }
 
 article img {
-    width: 150px;
+    width: 120px;
+    height: auto;
+}
+
+section img {
+    width: 180px;
     height: auto;
 }
