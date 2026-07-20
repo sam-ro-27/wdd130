@@ -23,22 +23,6 @@ header img {
     height: auto;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
-.hero article img {
-    width: 150px;
-    height: auto;
-    margin-left: 15px;
-}
-
-section img {
-    width: 180px;
-    height: auto;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -93,6 +77,8 @@ section img {
 .hero article img {
     float: right;
     width: 125px;
+    height: auto;
+    margin-left: 15px;
 }
 
 .socialmedia a {
