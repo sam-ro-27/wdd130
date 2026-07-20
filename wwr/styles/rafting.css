@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #055a05;
+}
+
 body {
     max-width: 960px;
     margin: 0 auto;
