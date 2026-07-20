@@ -13,6 +13,11 @@ header img {
     height: auto;
 }
 
+.hero article img {
+    width: 80px;
+    height: auto;
+}
+
 section img {
     width: 180px;
     height: auto;
