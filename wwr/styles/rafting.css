@@ -32,9 +32,12 @@ header {
     color: var(--accent2-color);
 }
 
+nav a {
+    color: var(var(--accent2-color))
+}
+
 footer {
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
 }
 
 h1,
