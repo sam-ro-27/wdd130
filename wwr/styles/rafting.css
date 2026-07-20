@@ -14,16 +14,26 @@
     --background-color: #ffffff;
 }
 
-/* Restructures the layout width and centers the content layout */
 header,
 main,
 footer {
-    max-width: 840px;
+    width: 840px;
     margin: 0 auto;
 }
 
 body {
     font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
     color: var(--accent1-color);
 }
 
@@ -41,6 +51,10 @@ article {
     padding: 8px;
 }
 
+nav a {
+    color: var(--accent2-color);
+}
+
 header img {
     width: 150px;
     height: auto;
@@ -49,20 +63,6 @@ header img {
 img {
     max-width: 100%;
     height: auto;
-}
-
-/* Places the 5 pictures side-by-side in a horizontal row */
-.adventure .gallery {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-}
-
-/* Makes all 5 pictures equal size and fills their flex space */
-.adventure .gallery img {
-    width: 18%;
-    height: auto;
-    object-fit: cover;
 }
 
 .hero {
@@ -100,6 +100,18 @@ img {
     width: 125px;
     height: auto;
     margin-left: 15px;
+}
+
+.adventure .gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.adventure .gallery img {
+    width: 18%;
+    height: auto;
+    object-fit: cover;
 }
 
 .socialmedia a {
