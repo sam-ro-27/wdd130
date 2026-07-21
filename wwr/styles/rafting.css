@@ -55,7 +55,7 @@ article {
 }
 
 nav a {
-    color: var(--accent2-color);
+    color: --accent2-color;
 }
 
 header img {
