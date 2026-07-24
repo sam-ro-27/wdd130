@@ -32,8 +32,11 @@ header {
     color: var(--accent2-color);
 }
 
-footer {
-    background-color: var(--secondary-color);
+flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 h1,
@@ -112,6 +115,10 @@ img {
     width: 18%;
     height: auto;
     object-fit: cover;
+}
+
+footer {
+    background-color: var(--secondary-color);
 }
 
 .socialmedia a {
