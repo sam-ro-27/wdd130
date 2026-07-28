@@ -119,14 +119,13 @@ img {
     margin-left: 15px;
 }
 
-.adventure .gallery {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
+.adventure .gallery figure {
+    width: 18%;
+    margin: 0;
 }
 
-.adventure .gallery img {
-    width: 18%;
+.adventure .gallery figure img {
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
