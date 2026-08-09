@@ -179,7 +179,9 @@ footer {
 }
 
 .newsletter p {
-    margin: 1.5rem;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
 }
 
 .newsletter form {
@@ -198,12 +200,17 @@ footer {
     font-size: 1.25rem;
 }
 
+.newsletter label {
+    color: #ffffff;
+    font-weight: bold;
+}
+
 .newsletter button {
     background-color: var(--accent2-color);
     color: var(--accent1-color);
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
