@@ -374,7 +374,14 @@ iframe {
 .contact-form form {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
-    max-width: 450px;
+    gap: 0.85rem;
+    max-width: 550px;
     margin: 0 auto;
+}
+
+.radio-option,
+.checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
