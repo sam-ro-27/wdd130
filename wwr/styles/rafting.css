@@ -329,7 +329,6 @@ iframe {
     background-color: #f8f9fa;
     border: 1px solid #e6d7d7;
     border-left: 6px solid var(--primary-color);
-    /* Branded left border */
     padding: 2rem;
     margin: 2rem 0;
     border-radius: 6px;
@@ -351,6 +350,7 @@ iframe {
     margin-top: 1rem;
 }
 
+.contact-form input[type="text"],
 .contact-form textarea {
     width: 100%;
     padding: 0.6rem;
