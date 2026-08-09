@@ -328,7 +328,7 @@ iframe {
 /* Card container for the Contact Form */
 .contact-form {
     background-color: #f8f9fa;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #e6d7d7;
     border-left: 6px solid var(--primary-color);
     /* Branded left border */
     padding: 2rem;
