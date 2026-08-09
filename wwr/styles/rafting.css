@@ -325,11 +325,19 @@ iframe {
     border-radius: 4px;
 }
 
-.contact-form form {
-    display: grid;
-    gap: 0.75rem;
-    max-width: 500px;
-    margin: 0 auto;
+/* Card container for the Contact Form */
+.contact-form {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-left: 6px solid var(--primary-color);
+    /* Branded left border */
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 6px;
+}
+
+.contact-form h2 {
+    margin-bottom: 1rem;
 }
 
 .contact-form button {
