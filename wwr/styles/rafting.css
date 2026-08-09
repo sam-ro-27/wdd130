@@ -325,7 +325,6 @@ iframe {
     border-radius: 4px;
 }
 
-/* Card container for the Contact Form */
 .contact-form {
     background-color: #f8f9fa;
     border: 1px solid #e6d7d7;
@@ -350,4 +349,14 @@ iframe {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 1rem;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    margin-top: 0.25rem;
 }
