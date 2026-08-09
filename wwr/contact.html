@@ -39,30 +39,48 @@
               referrerpolicy="strict-origin-when-cross-origin">
             </iframe>
         </section>
-        <section class="team-gallery">
+        <section class="team-section">
             <h2>Meet our Team</h2>
-            <img src="images/rafting_fun.jpg" alt="Rafting Fun">
-            <img src="images/rafting_team.jpg" alt="Rafting Team">
-            <img src="images/rafting_team2.jpg" alt="Rafting team 2">
-            <img src="images/rafting_team3.jpg" alt="Rafting Team 3">
-            <img src="images/rafting_team4.jpg" alt="Rafting team 4">
+            <div class="team-gallery">
+                <img src="images/rafting_fun.jpg" alt="Rafting Fun">
+                <img src="images/rafting_team.jpg" alt="Rafting Team">
+                <img src="images/rafting_team2.jpg" alt="Rafting team 2">
+                <img src="images/rafting_team3.jpg" alt="Rafting Team 3">
+                <img src="images/rafting_team4.jpg" alt="Rafting team 4">
+            </div>
         </section>
         <section class="contact-form">
             <h2>Send a message</h2>
             <form>
-                <label for="username">username</label>
+                <label for="username">Username:</label>
                 <input type="text" id="username" name="user-name">
-                <input type="radio" id="trip1" name="trip" value="short">
-                <label for="trip1">Short Trip</label>
-                <input type="radio" id="trip2" name="trip" value="long">
-                <label for="trip2">Long trip</label>
-                <input type="radio" id="trip3" name="trip" value="full">
-                <label for="trip3">full</label>
+
+                <div class="radio-option">
+                    <input type="radio" id="trip1" name="trip" value="short">
+                    <label for="trip1">Short Trip</label>
+                </div>
+
+                <div class="radio-option">
+                    <input type="radio" id="trip2" name="trip" value="long">
+                    <label for="trip2">Long Trip</label>
+                </div>
+
+                <div class="radio-option">
+                    <input type="radio" id="trip3" name="trip" value="full">
+                    <label for="trip3">Full Day</label>
+                </div>
+
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4"></textarea>
-                <label for="newsletter">Yes, send updates</label>
-                <input type="checkbox" id="newsletter" name="updates" value="Yes">
+
+
+                <div class="checkbox-option">
+                    <input type="checkbox" id="newsletter" name="updates" value="Yes">
+                    <label for="newsletter">Yes, send updates</label>
+                </div>
+
                 <button type="submit">Give Us A Chance!</button>
+
             </form>
         </section>
     </main>
