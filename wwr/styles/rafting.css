@@ -370,3 +370,11 @@ iframe {
     color: var(--primary-color);
     font-weight: bold;
 }
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 450px;
+    margin: 0 auto;
+}
